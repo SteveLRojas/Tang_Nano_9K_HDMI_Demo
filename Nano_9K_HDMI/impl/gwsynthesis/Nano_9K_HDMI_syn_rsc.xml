@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="HDMI_demo" Register="31" Alu="23" Lut="1">
+    <SubModule name="pll_inst"/>
+    <SubModule name="pattern_inst" Register="45" Alu="8" Lut="65"/>
+    <SubModule name="vga_to_hdmi_inst" Register="44" Lut="38">
+        <SubModule name="encode_R" Register="14" Alu="4" Lut="51"/>
+        <SubModule name="encode_G" Register="14" Alu="4" Lut="46"/>
+        <SubModule name="encode_B" Register="14" Alu="4" Lut="65"/>
+    </SubModule>
+</Module>

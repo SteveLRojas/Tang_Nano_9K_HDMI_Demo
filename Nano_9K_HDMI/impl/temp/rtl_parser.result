@@ -1,0 +1,62 @@
+[
+ {
+  "InstFile" : "G:/Nano_9K_HDMI/src/top_level.v",
+  "InstLine" : 1,
+  "InstName" : "HDMI_demo",
+  "ModuleFile" : "G:/Nano_9K_HDMI/src/top_level.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "HDMI_demo",
+  "SubInsts" : [
+   {
+    "InstFile" : "G:/Nano_9K_HDMI/src/top_level.v",
+    "InstLine" : 25,
+    "InstName" : "pll_inst",
+    "ModuleFile" : "G:/Nano_9K_HDMI/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "G:/Nano_9K_HDMI/src/top_level.v",
+    "InstLine" : 42,
+    "InstName" : "pattern_inst",
+    "ModuleFile" : "G:/Nano_9K_HDMI/src/pattern_gen.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "pattern_gen"
+   },
+   {
+    "InstFile" : "G:/Nano_9K_HDMI/src/top_level.v",
+    "InstLine" : 52,
+    "InstName" : "vga_to_hdmi_inst",
+    "ModuleFile" : "G:/Nano_9K_HDMI/src/vga_to_hdmi.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "vga_to_hdmi",
+    "SubInsts" : [
+     {
+      "InstFile" : "G:/Nano_9K_HDMI/src/vga_to_hdmi.v",
+      "InstLine" : 49,
+      "InstName" : "encode_R",
+      "ModuleFile" : "G:/Nano_9K_HDMI/src/TMDS_encoder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "TMDS_encoder"
+     },
+     {
+      "InstFile" : "G:/Nano_9K_HDMI/src/vga_to_hdmi.v",
+      "InstLine" : 50,
+      "InstName" : "encode_G",
+      "ModuleFile" : "G:/Nano_9K_HDMI/src/TMDS_encoder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "TMDS_encoder"
+     },
+     {
+      "InstFile" : "G:/Nano_9K_HDMI/src/vga_to_hdmi.v",
+      "InstLine" : 51,
+      "InstName" : "encode_B",
+      "ModuleFile" : "G:/Nano_9K_HDMI/src/TMDS_encoder.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "TMDS_encoder"
+     }
+    ]
+   }
+  ]
+ }
+]
